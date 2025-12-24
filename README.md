@@ -37,6 +37,16 @@ Müşteri yaşam boyu değeri (CLV) tahmininden sağlık analitiğine, şehir mo
 
 ## 📊 Öne Çıkan Projeler
 
+### 🏥 [Healthcare Analytics System](https://github.com/Egekocaslqn00/healthcare-analytics-system)
+Sağlık verilerini analiz eden ve hasta sonuçlarını tahmin eden sistem.
+
+**Teknolojiler:** `Python` `Machine Learning` `Healthcare Analytics`
+
+### 🧬 [Bio-GPT Cancer](https://github.com/Egekocaslqn00/bio-gpt-cancer)
+Biyomedikal verilerde GPT tabanlı kanser analizi.
+
+**Teknolojiler:** `Python` `NLP` `Biomedical AI`
+
 ### 🔮 [Predictive CLV Engine](https://github.com/Egekocaslqn00/predictive-clv-engine)
 E-ticaret müşteri yaşam boyu değeri tahmin motoru. **BG/NBD** ve **Pareto/NBD** modelleri ile **RFM analizi** ve **K-Means segmentasyonu** kullanarak müşteri davranışlarını tahmin ediyor.
 
@@ -47,20 +57,10 @@ E-ticaret müşteri yaşam boyu değeri tahmin motoru. **BG/NBD** ve **Pareto/NB
 
 **Teknolojiler:** `Python` `scikit-learn` `lifetimes` `pandas` `matplotlib` `seaborn`
 
-### 🏥 [Healthcare Analytics System](https://github.com/Egekocaslqn00/healthcare-analytics-system)
-Sağlık verilerini analiz eden ve hasta sonuçlarını tahmin eden sistem.
-
-**Teknolojiler:** `Python` `Machine Learning` `Healthcare Analytics`
-
 ### 🚕 [NYC Mobility Intelligence](https://github.com/Egekocaslqn00/nyc-mobility-intelligence)
 New York şehir mobilite verilerini analiz eden ve ulaşım trendlerini inceleyen proje.
 
 **Teknolojiler:** `TypeScript` `Data Analysis` `Geospatial Analytics`
-
-### 🧬 [Bio-GPT Cancer](https://github.com/Egekocaslqn00/bio-gpt-cancer)
-Biyomedikal verilerde GPT tabanlı kanser analizi.
-
-**Teknolojiler:** `Python` `NLP` `Biomedical AI`
 
 ## 📈 GitHub İstatistikleri
 
