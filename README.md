@@ -6,6 +6,16 @@ Karmaşık verilerden anlamlı iş sonuçları çıkarmaya ve ölçeklenebilir m
 
 ---
 
+## 🎯 Hakkımda
+
+Veri bilimini sadece modeller kurmak değil, iş problemlerine çözüm üretmek olarak görüyorum. Kariyerim boyunca:
+- **Tahminleyici Modelleme:** Müşteri yaşam boyu değeri (CLV) ve satış tahminleri üzerine uzmanlaştım.
+- **Doğal Dil İşleme (NLP):** Biyomedikal veriler ve büyük metin yığınlarından anlamlı içgörüler çıkarma konusunda projeler geliştirdim.
+- **Veri Stratejisi:** Veri odaklı karar verme süreçlerini optimize ederek maliyet azaltma ve gelir artırma odaklı çözümler sundum.
+- **Sürekli Öğrenme:** Derin öğrenme ve büyük veri teknolojilerindeki güncel gelişmeleri yakından takip ediyor ve projelerime entegre ediyorum.
+
+---
+
 ## 🛠️ Teknik Yetkinlikler
 
 | Kategori | Teknolojiler |
