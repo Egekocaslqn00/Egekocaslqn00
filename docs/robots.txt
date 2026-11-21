@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://egekocaslqn00.github.io/sitemap.xml
+Sitemap: https://egekocaslqn00.github.io/Egekocaslqn00/sitemap.xml
