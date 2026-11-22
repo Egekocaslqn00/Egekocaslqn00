@@ -1,4 +1,4 @@
-# Case Study: Cold-Start Building Energy Forecasting
+# Cold-Start Building Energy Forecasting with Virtual Sensors and a 12-Model Ensemble
 
 ## Context
 

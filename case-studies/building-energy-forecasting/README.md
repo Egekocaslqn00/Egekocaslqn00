@@ -1,4 +1,4 @@
-# Anonymized Building Energy Forecasting Case Study
+# Cold-Start Building Energy Forecasting with Virtual Sensors and a 12-Model Ensemble
 
 > Cold-start forecasting with virtual sensors, transfer learning, and a 12-member ensemble.
 
