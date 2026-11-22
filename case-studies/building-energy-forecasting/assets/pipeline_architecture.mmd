@@ -1,0 +1,23 @@
+flowchart LR
+    A[2 months of target-building history] --> C[Calibration layer]
+    B[Permissioned peer-building signals] --> V[Virtual sensors]
+    W[Historical weather + calendar] --> F[Feature engineering]
+    V --> F
+    C --> F
+    F --> E{12-member ensemble}
+    E --> L1[LightGBM level members]
+    E --> L2[LightGBM ratio members]
+    E --> X1[XGBoost level + ratio members]
+    E --> P[Temporal profile baseline]
+    L1 --> O[Equal-weight forecast]
+    L2 --> O
+    X1 --> O
+    P --> O
+    O --> Q[Remaining ~365-day hourly estimate]
+
+    classDef input fill:#e9f3f5,stroke:#267a8b,color:#13353d,stroke-width:1.5px
+    classDef model fill:#fff1dc,stroke:#c47b21,color:#5e3b0d,stroke-width:1.5px
+    classDef output fill:#e8f1e8,stroke:#4b8756,color:#23462a,stroke-width:1.5px
+    class A,B,W input
+    class C,V,F,E,L1,L2,X1,P model
+    class O,Q output

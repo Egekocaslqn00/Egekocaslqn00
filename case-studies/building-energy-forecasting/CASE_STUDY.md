@@ -6,6 +6,11 @@ During an academically supervised R&D internship in Tallinn, I worked on an hour
 
 The public case study removes the host organization, supervisor identity, building codes, exact locations, raw readings, and all deliverable files. It focuses on the modeling reasoning and engineering decisions.
 
+![Virtual-sensor forecasting architecture](assets/pipeline_architecture.png)
+
+*Figure 1. High-level architecture of the virtual-sensor and 12-member ensemble approach.*
+
+
 ## Why the problem is difficult
 
 The target's observed history is short and seasonal. A model trained only on two winter months can produce a plausible-looking but structurally wrong summer forecast. Randomly splitting adjacent hours would also overstate performance because neighboring observations share weather, occupancy, and calendar patterns.
@@ -27,6 +32,15 @@ Members differed in target scaling, loss function, feature subsets, and monotoni
 I used blind leave-one-building-out validation. Each fully observed peer was temporarily treated as the unseen target: only its first two months were exposed for calibration, while the later period was held out for scoring. Additional checks included a winter-to-winter forward test on the real target and short time-ordered splits.
 
 The pipeline also validated local-time row order, daylight-saving behavior, missing values, positive predictions, and complete hourly coverage.
+
+![Blind validation flow](assets/validation_flow.png)
+
+*Figure 2. Blind leave-one-building-out validation flow.*
+
+![Anonymized proxy benchmark](results/benchmark_summary.png)
+
+*Figure 3. Aggregated benchmark comparison; no raw building series are included.*
+
 
 ## Results and communication
 

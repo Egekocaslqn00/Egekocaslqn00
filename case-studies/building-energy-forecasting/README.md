@@ -14,6 +14,17 @@ The solution used a **virtual-sensor method**: concurrent peer-building loads ac
 
 The workflow included cross-building transfer learning, blind leave-one-building-out testing, SHAP-based interpretability, strict timestamp validation, and production-oriented input/output checks. The design was intended to remain useful when the target history is too short for a conventional seasonal model.
 
+## Visual overview
+
+![Virtual-sensor forecasting architecture](assets/pipeline_architecture.png)
+
+The pipeline turns permissioned peer-building signals into virtual sensors, combines them in a fixed 12-member ensemble, and produces the long-horizon estimate.
+
+![Anonymized proxy benchmark](results/benchmark_summary.png)
+
+![Blind validation flow](assets/validation_flow.png)
+
+
 ## Public results
 
 The original profile headline reports **12.42% MAPE** and a **0.9456 correlation coefficient** over 7,344 hourly observations. In the internal anonymized proxy benchmark, the fixed ensemble reached approximately **10.1% MAPE** under leave-one-building-out validation. These are different validation summaries and should not be treated as interchangeable.

@@ -1,0 +1,13 @@
+flowchart LR
+    A[Four fully observed peer buildings] --> B[Hold out one building]
+    B --> C[Expose only first 2 months]
+    C --> D[Train on remaining peer signals]
+    D --> E[Forecast hidden remaining period]
+    E --> F[Score hourly MAPE + coverage]
+    F --> G[Repeat for every peer]
+    G --> H[Aggregate result + uncertainty]
+
+    classDef step fill:#f3f6fb,stroke:#4169a1,color:#172b4d,stroke-width:1.5px
+    classDef score fill:#fff1dc,stroke:#c47b21,color:#5e3b0d,stroke-width:1.5px
+    class A,B,C,D,E,G,H step
+    class F score
