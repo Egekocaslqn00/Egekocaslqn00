@@ -1,0 +1,21 @@
+# Never commit raw or operational data
+*.zip
+*.xlsx
+*.xls
+*.csv
+*.parquet
+*.feather
+*.pkl
+*.joblib
+*.ipynb
+*.html
+*.pdf
+.env
+.DS_Store
+__pycache__/
+.venv/
+
+# The following file is deliberately sanitized and may be committed
+!results/
+!results/benchmark_summary.csv
+!results/benchmark_summary.png

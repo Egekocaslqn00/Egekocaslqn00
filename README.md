@@ -22,7 +22,7 @@ Engagement scope, data access, deliverables, acceptance criteria, and timeline a
 
 **Extreme Cold-Start Building-Energy Forecasting** — used two months of winter history to forecast ten months of hourly consumption. The approach combined LightGBM, XGBoost, and temporal profiles in a 12-member ensemble and used four adjacent buildings as virtual sensors in a cross-building transfer-learning approach. TalTech documentation records **12.42% MAPE** on Building X electricity-load profiles; the signed recommendation letter reports a blind test across **7,344 hourly observations**, **12.42% MAPE**, and **0.9456 correlation**.
 
-[Read the full case study](https://egekocaslqn00.github.io/Egekocaslqn00/case-studies/taltech-building-energy-forecasting.html) · [Explore consulting topics](https://egekocaslqn00.github.io/Egekocaslqn00/)
+[Read the full case study](https://egekocaslqn00.github.io/Egekocaslqn00/case-studies/taltech-building-energy-forecasting.html) · [Explore consulting topics](https://egekocaslqn00.github.io/Egekocaslqn00/) · [View the anonymized GitHub case study](./case-studies/building-energy-forecasting/)
 
 This is a specific academic research case, not a data-drift deployment or a claim that every cold-start problem can be solved in two weeks.
 

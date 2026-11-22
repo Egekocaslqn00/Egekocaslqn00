@@ -1,0 +1,8 @@
+model,validation_protocol,mape_pct,disclosure_note
+fixed_equal_weight_ensemble,anonymized_leave_one_building_out,10.07,rounded aggregate proxy result
+fixed_equal_weight_ensemble,two_peer_robustness_check,10.44,rounded aggregate proxy result
+winter_forward_check,target_only_time_ordered,5.38,rounded aggregate check
+previous_single_model,anonymized_leave_one_building_out,10.55,rounded comparison
+best_individual_member,anonymized_leave_one_building_out,10.34,rounded comparison
+weekday_hour_profile_baseline,anonymized_leave_one_building_out,12.30,rounded comparison
+area_scaled_peer_baseline,anonymized_leave_one_building_out,18.16,rounded comparison
